@@ -22,19 +22,20 @@ positioned on given coordinates on the board.
 
 ### Scenario: Draw obstacles
 
-Given: User game-play is in progress; Height, width and co-ordinates of the object to be drawn.
+Given: User game-play is in progress; Height, width and
+co-ordinates of the object to be drawn.
 When: User completes a level.
 Then: The new obstacles are drawn and
 positioned on given coordinates on the board.
 
-### Scenario: Display relevant messages when the user starts game-play, completes a level and pauses the game-play
+### Scenario: Display relevant messages
 
 Given: User game-play has started; User game-play is in progress.
 When: User has either started the game-play or
 paused the game-play or user completes the level.
 Then: Display relevant messages depending on given scenario with animation.
 
-### Scenario: Apply different color to background, objects, texts.
+### Scenario: Apply different color to background, objects, texts
 
 Given: Game is in main menu screen; User game-play has started;
 User game-play is in progress.
