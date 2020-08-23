@@ -42,7 +42,7 @@ Then: Texts, background or objects color in the game should change.
 
 ### Scenario: Pause menu
 
-Given: User gameplay is in progress.
+Given: User game-play is in progress.
 When: User pauses the game by pressing escape key.
 Then: Pause menu should appear, resume game and exit options should be
 displayed for user to choose.
@@ -57,7 +57,7 @@ user should be navigated back to main menu if exit option is chosen.
 
 ### Scenario: Game over menu
 
-Given: User gameplay is in progress.
+Given: User game-play is in progress.
 When: User loses the game.
 Then: Game over menu should appear, replay game
 and exit options should be displayed for user to choose.
