@@ -32,11 +32,11 @@ Then: The paddle should randomly move vertically at predefined speed.
 ### Scenario: Current level should be displayed
 
 Given: User game-play has started.
-When: User game-play is in progress. 
+When: User game-play is in progress.
 Then: Current level should be displayed.
 
 ### Scenario: Game over
 
 Given: User game-play is in progress.
-When: The ball goes behind user paddle. 
+When: The ball goes behind user paddle.
 Then: Game over menu should be prompted.
