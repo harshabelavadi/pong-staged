@@ -17,7 +17,7 @@ transition animation between options should be applied.
 
 Given: Height, width and co-ordinates of the object to be drawn.
 When: User game-play has started.
-Then: The paddles for both user and cpu should be drawn and
+Then: The paddles for both user and CPU should be drawn and
 positioned on given coordinates on the board.
 
 ### Scenario: Draw obstacles
