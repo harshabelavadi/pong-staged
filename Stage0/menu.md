@@ -2,23 +2,24 @@
 
 ## Feature
 
-This module is responsible for displaying and functionalities of main menu, profiles menu and pause menu.
+This module is responsible for prompting main menu, profiles menu and pause menu.
 
 ## Acceptance Criteria
 
 ### Scenario: Main menu
 
 Given: Game is installed and has started.
-When: Game has started for the first time or 
+When: Game has started for the first time or
 player quits the game and switches back to main game screen.
-Then: Main menu should display new game, load game, delete profile and settings options.
+Then: Main menu should display new game, load game,
+delete profile and settings options.
 
 ### Scenario: New game option in main menu
 
 Given: Main menu is being displayed.
 When: New game option is selected.
 Then: User should enter details like name, email to create new profile
-and then proceed to start game.
+and proceed to start game.
 
 ### Scenario: Load profiles menu
 
@@ -58,14 +59,14 @@ user should be navigated back to main menu if exit option is chosen.
 
 Given: User gameplay is in progress.
 When: User loses the game.
-Then: Game over menu should appear, 
-replay game and exit options should be displayed for user to choose.
+Then: Game over menu should appear, replay game
+and exit options should be displayed for user to choose.
 
 ### Scenario: Game over options
 
 Given: Game over menu being displayed.
 When: User selects replay option or
 user selects exit option.
-Then: Game is restarted from the same level 
+Then: Game is restarted from the same level
 where user lost if user selects replay option or
 user should be navigated back to main menu if exit option is chosen.
