@@ -3,7 +3,7 @@
 ## Feature
 
 This module interacts with level module,
-drawObjects module continuously for animating objects
+draw objects module continuously for animating objects
 and is responsible for initiating and maintaining game-play.
 
 ## Acceptance Criteria
@@ -22,7 +22,7 @@ Given: User game-play has started and is in progress.
 When: User presses direction keys (up/down).
 Then: The paddle should move vertically at predefined speed.
 
-### Scenario: Cpu player auto-moves paddle vertically
+### Scenario: Cpu player auto moves paddle vertically
 
 Given: User game-play has started and is in progress.
 When: The ball collides with user paddle or
