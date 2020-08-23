@@ -2,7 +2,8 @@
 
 ## Feature
 
-This module interacts with level module, drawObjects module continuously for animating objects
+This module interacts with level module,
+drawObjects module continuously for animating objects
 and is responsible for initiating and maintaining game-play.
 
 ## Acceptance Criteria
@@ -11,8 +12,9 @@ and is responsible for initiating and maintaining game-play.
 
 Given: User selects new game or resume game.
 When: Game-play starts either at first level or loaded from last saved level.
-Then: There should be an interval of three seconds with timer displaying on the screen
-before the actual game-play starts and all objects should be placed on predefined positions.
+Then: There should be an interval of three seconds
+with timer displaying on the screen before the actual game-play
+starts and all objects should be placed on predefined positions.
 
 ### Scenario: Player moves the paddle vertically
 
