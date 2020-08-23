@@ -22,7 +22,7 @@ Given: User game-play has started and is in progress.
 When: User presses direction keys (up/down).
 Then: The paddle should move vertically at predefined speed.
 
-### Scenario: Computer player auto-moves the paddle vertically
+### Scenario: CPU player auto-moves the paddle vertically
 
 Given: User game-play has started and is in progress.
 When: The ball collides with user paddle or
