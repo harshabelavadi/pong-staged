@@ -10,8 +10,8 @@ to draw obstacles to increase difficulty as user levels up.
 ### Scenario: User completes the level
 
 Given: User game-play is in progress.
-When: Duration of game-play at a certain level
-exceeds predefined threshold (can be in seconds or certain clockticks).
+When: Duration of game-play at a certain level exceeds predefined threshold
+( can be in seconds or certain clockticks ).
 Then: Level completed message should be displayed,
 update user game profile and
 user should be navigated to next level screen.
